@@ -24,8 +24,7 @@ VALUES (
 );
 
 SELECT *
-FROM employees
-WHERE
+FROM employeesERE
 	`name` = '배준길'
 	AND birth = '1987-04-18'
 	AND hire_at = '2025-10-31'
